@@ -4,7 +4,7 @@ import pandas as pd
 import io
 
 st.set_page_config(page_title="Análisis de Precios", layout="centered")
-st.title("🔍 Análisis de Precios y Competencia")
+st.title("📊 Análisis de precios de tu negocio v/s competencia")
 
 st.write("Sube dos archivos CSV: uno con los precios de tu negocio y otro con los de la competencia.")
 
