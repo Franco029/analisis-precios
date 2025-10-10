@@ -3,10 +3,6 @@ import streamlit as st
 import pandas as pd
 import io
 
-streamlit
-pandas
-openpyxl
-
 st.set_page_config(page_title="Análisis de Precios", layout="centered")
 st.title("🔍 Análisis de Precios y Competencia")
 
