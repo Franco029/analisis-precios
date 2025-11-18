@@ -1,11 +1,11 @@
 
-# 📊 Análisis de Precios y Competencia
+#  Análisis de Precios y Competencia
 
 Esta es una aplicación web desarrollada con **Streamlit** que permite comparar los precios de productos de un negocio con los de su competencia y obtener alertas automáticas si los precios están muy caros o baratos.
 
 ---
 
-## 🚀 ¿Qué hace esta app?
+## ¿Qué hace esta app?
 
 1. El usuario sube dos archivos `.csv`:
    - Uno con los precios del negocio
@@ -14,15 +14,15 @@ Esta es una aplicación web desarrollada con **Streamlit** que permite comparar 
 2. La app compara ambos precios y calcula:
    - Diferencia absoluta
    - Diferencia porcentual
-   - Alerta visual: ⚠️ Muy caro, 💸 Muy barato, ✅ Competitivo
+   - Alerta visual:  Muy caro,  Muy barato,  Competitivo
 
 3. Finalmente, permite **descargar un informe en Excel** con todos los resultados.
 
 ---
 
-## 🧾 Formato de los archivos `.csv`
+## Formato de los archivos `.csv`
 
-### 🟩 negocio.csv
+### negocio.csv
 ```csv
 Producto;Precio_Negocio
 Hamburguesa;4500
@@ -30,7 +30,7 @@ Pizza;7000
 Soda;1500
 ```
 
-### 🟥 competencia.csv
+### competencia.csv
 ```csv
 Producto;Precio_Competencia
 Hamburguesa;4000
@@ -42,21 +42,21 @@ Soda;1700
 
 ---
 
-## 🌐 Prueba la app en línea
+##  Prueba la app en línea
 
-👉 [Haz clic aquí para usar la app](https://franco029-analisis-precios.streamlit.app/)
-
----
-
-## 🛠️ Tecnologías usadas
-
-- Python 🐍
-- Streamlit ⚡
-- Pandas 📊
-- Openpyxl 📁
+[Haz clic aquí para usar la app](https://franco029-analisis-precios.streamlit.app/)
 
 ---
 
-## 💡 Autor
+##  Tecnologías usadas
+
+- Python 
+- Streamlit 
+- Pandas 
+- Openpyxl 
+
+---
+
+##  Autor
 
 Desarrollado por [Franco029](https://github.com/Franco029)
